@@ -128,11 +128,16 @@ For `calculateTwoNorm`:
 
 Ensure `calculateDotProduct` gives the correct results for the following cases:
 
+1. Two parallel vectors of equal length
+2. Two orthogonal vectors
+3. Vectors of equal length at a 45 degree angle to eachother
+
 Ensure `calculateProjection` gives the correct results for the following cases:
 
 1. Two parallel vectors of equal length
 2. Two orthogonal vectors
 3. Vectors of equal length at a 45 degree angle to eachother
+4. Two vectors where one is twice as long as the other. What happens if you switch the order of the arguments? Should the answer stay the same?
 
 Invoke your tests using the XXX file, and fill out the `example_library/run_tests.sh` file with a line that invokes your test runner.
 

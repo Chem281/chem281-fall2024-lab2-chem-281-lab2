@@ -1,4 +1,4 @@
-# Welcome to Lab 2
+# Developing a C++ Project Using Containerized Development, GoogleTest and Github Actions
 
 ## Orientation
 
